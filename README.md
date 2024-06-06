@@ -7,15 +7,19 @@ Meta-library that combines all [llm-dataset-converter](https://github.com/waikat
 Via PyPI:
 
 ```bash
-pip install llm-dataset-converter-all
+pip install llm-dataset-converter-all \
+            git+https://github.com/waikato-llm/ldc-tint.git
 ```
 
 The latest code straight from the repository:
 
 ```bash
-pip install git+https://github.com/waikato-llm/llm-dataset-converter-all.git
+pip install git+https://github.com/waikato-llm/llm-dataset-converter-all.git \
+            git+https://github.com/waikato-llm/ldc-tint.git
 ```
 
+**NB:** The [reo-toolkit](https://github.com/TeHikuMedia/reo-toolkit) library is not published on pypi, 
+so we have to install that separately from the github repo.
 
 ## Docker
 

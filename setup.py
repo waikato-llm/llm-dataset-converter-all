@@ -35,7 +35,6 @@ setup(
         "ldc-html>=0.0.1",
         "ldc-openai>=0.0.1",
         "ldc-pdf>=0.0.1",
-        "ldc-tint>=0.0.1",
     ],
     version="0.0.1",
     author='Peter Reutemann',
