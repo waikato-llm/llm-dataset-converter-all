@@ -33,8 +33,8 @@ Steps:
 Docker
 ======
 
-* create copy of [docker/latest](docker/latest) and rename it to just released version
+* create copy of eg [docker/0.0.1](docker/0.0.1) and rename it to just released version
 * link to new version from [docker/README.md](docker/README.md)
 * update version in `bash.bashrc`
-* update versions of additional llm-dataset-converter libraries if necessary
+* update version of llm-dataset-converter-all library to just released one
 * push out to in-house registry and docker hub
