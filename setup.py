@@ -27,7 +27,7 @@ setup(
     ],
     license='MIT License',
     install_requires=[
-        "llm-dataset-converter>=0.2.3",
+        "llm-dataset-converter>=0.2.4",
         "ldc-doc>=0.0.1",
         "ldc-docx>=0.0.1",
         "ldc-faster-whisper>=0.0.1",
