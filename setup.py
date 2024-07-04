@@ -34,7 +34,7 @@ setup(
         "ldc-google>=0.0.1",
         "ldc-html>=0.0.2",
         "ldc-openai>=0.0.1",
-        "ldc-pdf>=0.0.1",
+        "ldc-pdf>=0.0.2",
     ],
     version="0.0.1",
     author='Peter Reutemann',

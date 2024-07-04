@@ -8,6 +8,7 @@ Changelog
 - upgraded ldc-doc to 0.0.2
 - upgraded ldc-docx to 0.0.2
 - upgraded ldc-html to 0.0.2
+- upgraded ldc-pdf to 0.0.2
 
 
 0.0.1 (2024-06-06)
