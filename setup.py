@@ -32,7 +32,7 @@ setup(
         "ldc-docx>=0.0.2",
         "ldc-faster-whisper>=0.0.1",
         "ldc-google>=0.0.1",
-        "ldc-html>=0.0.1",
+        "ldc-html>=0.0.2",
         "ldc-openai>=0.0.1",
         "ldc-pdf>=0.0.1",
     ],
