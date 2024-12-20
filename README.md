@@ -7,7 +7,7 @@ Meta-library that combines all [llm-dataset-converter](https://github.com/waikat
 Via PyPI:
 
 ```bash
-pip install llm-dataset-converter-all
+pip install llm_dataset_converter_all
 ```
 
 The latest code straight from the repository:
