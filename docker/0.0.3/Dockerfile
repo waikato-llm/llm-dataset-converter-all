@@ -24,7 +24,7 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
 
 RUN pip3 --no-cache-dir install \
-        llm-dataset-converter-all==0.0.3
+        llm_dataset_converter_all==0.0.3
 
 COPY bash.bashrc /etc/bash.bashrc
 

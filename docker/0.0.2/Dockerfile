@@ -24,7 +24,7 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
 
 RUN pip3 --no-cache-dir install \
-        llm-dataset-converter-all==0.0.2 \
+        llm_dataset_converter_all==0.0.2 \
         git+https://github.com/waikato-llm/ldc-tint.git@v0.0.1
 
 COPY bash.bashrc /etc/bash.bashrc
