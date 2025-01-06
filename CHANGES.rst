@@ -1,7 +1,7 @@
 Changelog
 =========
 
-0.0.4 (????-??-??)
+0.0.4 (2025-01-07)
 ------------------
 
 - upgraded llm_dataset_converter to 0.2.5
