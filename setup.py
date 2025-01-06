@@ -13,7 +13,7 @@ def _read(f):
 
 
 setup(
-    name="llm-dataset-converter-all",
+    name="llm_dataset_converter_all",
     description="Meta-library that combines all llm-dataset-converter libraries.",
     long_description=(
             _read('DESCRIPTION.rst') + b'\n' +
@@ -31,6 +31,7 @@ setup(
         "ldc_doc>=0.0.3",
         "ldc_docx>=0.0.2",
         "ldc_faster-whisper>=0.0.1",
+        "ldc_gitingest>=0.0.1",
         "ldc_google>=0.0.1",
         "ldc_html>=0.0.2",
         "ldc_openai>=0.0.1",

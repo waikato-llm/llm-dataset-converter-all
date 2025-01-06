@@ -6,6 +6,7 @@ Changelog
 
 - upgraded llm_dataset_converter to 0.2.5
 - upgraded ldc_doc to 0.0.3
+- added ldc_gitingest 0.0.1
 
 
 0.0.3 (2024-09-25)
