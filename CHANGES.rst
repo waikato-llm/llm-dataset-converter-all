@@ -8,6 +8,7 @@ Changelog
 - upgraded ldc_doc to 0.0.4
 - upgraded ldc_docx to 0.0.3
 - upgraded ldc_faster_whisper to 0.0.2
+- upgraded ldc_gitingest to 0.0.2
 
 
 0.0.4 (2025-01-07)
