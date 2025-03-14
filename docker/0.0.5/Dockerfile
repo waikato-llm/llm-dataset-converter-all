@@ -1,5 +1,5 @@
 ARG DOCKER_REGISTRY=public.aml-repo.cms.waikato.ac.nz:443/
-FROM ${DOCKER_REGISTRY}ubuntu:22.04
+FROM ${DOCKER_REGISTRY}ubuntu:24.04
 
 ENV DEBIAN_FRONTEND noninteractive
 
@@ -13,19 +13,21 @@ RUN apt-get update && \
        python3-pip \
        python3-pandas \
        python3-chardet \
+       python3-full \
        build-essential \
        libglib2.0-0 \
        libsm6 \
        libxrender-dev \
        libxext6 \
-       libgl1-mesa-glx \
+       libglx-mesa0 \
        libpq-dev \
        antiword && \
     rm -rf /var/lib/apt/lists/*
 
-RUN pip3 --no-cache-dir install \
+RUN python3 -m venv /opt/llm-dataset-converter && \
+    /opt/llm-dataset-converter/bin/pip --no-cache-dir install \
         llm_dataset_converter_all==0.0.5
 
+ENV PATH=/opt/llm-dataset-converter/bin:$PATH
 COPY bash.bashrc /etc/bash.bashrc
-
 WORKDIR /workspace
