@@ -33,7 +33,7 @@ setup(
         "ldc_faster-whisper>=0.0.2",
         "ldc_gitingest>=0.0.2",
         "ldc_google>=0.0.1",
-        "ldc_html>=0.0.2",
+        "ldc_html>=0.0.3",
         "ldc_openai>=0.0.1",
         "ldc_pdf>=0.0.2",
         "ldc_tint>=0.0.2",
