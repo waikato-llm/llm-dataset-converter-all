@@ -10,6 +10,7 @@ Changelog
 - upgraded ldc_faster_whisper to 0.0.2
 - upgraded ldc_gitingest to 0.0.2
 - upgraded ldc_html to 0.0.3
+- upgraded ldc_pdf to 0.0.3
 
 
 0.0.4 (2025-01-07)
