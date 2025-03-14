@@ -38,7 +38,7 @@ setup(
         "ldc_pdf>=0.0.3",
         "ldc_tint>=0.0.2",
     ],
-    version="0.0.4",
+    version="0.0.5",
     author='Peter Reutemann',
     author_email='fracpete@waikato.ac.nz',
 )
