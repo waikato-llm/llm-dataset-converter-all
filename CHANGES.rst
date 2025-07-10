@@ -5,6 +5,7 @@ Changelog
 ------------------
 
 - upgraded llm_dataset_converter to 0.2.7
+- upgraded ldc_doc to 0.0.5
 
 
 0.0.5 (2025-03-14)
