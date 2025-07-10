@@ -7,6 +7,7 @@ Changelog
 - upgraded llm_dataset_converter to 0.2.7
 - upgraded ldc_doc to 0.0.5
 - upgraded ldc_docx to 0.0.4
+- upgraded ldc_faster_whisper to 0.0.3
 
 
 0.0.5 (2025-03-14)
