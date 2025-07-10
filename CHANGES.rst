@@ -9,6 +9,7 @@ Changelog
 - upgraded ldc_docx to 0.0.4
 - upgraded ldc_faster_whisper to 0.0.3
 - upgraded ldc_google to 0.0.2
+- upgraded ldc_openai to 0.0.2
 
 
 0.0.5 (2025-03-14)
