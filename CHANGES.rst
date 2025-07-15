@@ -1,6 +1,12 @@
 Changelog
 =========
 
+0.0.7 (????-??-??)
+------------------
+
+- upgraded llm_dataset_converter to 0.2.8: https://github.com/waikato-llm/llm-dataset-converter/releases/tag/v0.2.8
+
+
 0.0.6 (2025-07-11)
 ------------------
 
