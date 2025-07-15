@@ -19,7 +19,7 @@ pip install git+https://github.com/waikato-llm/llm-dataset-converter-all.git
 Via script (using code from repos or local dirs):
 
 ``` bash
-./sdc-venv [options, use -h to see help screen]
+./ldc-venv [options, use -h to see help screen]
 ```
 
 ## Docker
